@@ -1,5 +1,11 @@
+.navbar-shadow{
+    box-shadow: 0 0.5rem 1rem rgb(0, 255, 221);
+}
+
 .custom-shadow {
     box-shadow: 0 0.5rem 1rem rgb(0, 255, 221);
+    border: 5px solid aqua;
+    border-radius: 10px;
 }
 
 .lightblue{
@@ -22,3 +28,69 @@ img{
     border: 4px solid aqua;
 }
   
+.instagram-icon{
+    font-size: 400px;
+}
+
+.text-shadow-instagram{
+    text-shadow: 8px 8px 16px rgb(0, 247, 255)
+}
+
+.discord-icon{
+    font-size: 400px;
+}
+
+.text-shadow-discord{
+    text-shadow: 8px 8px 16px rgb(0, 247, 255);
+}
+
+.email-icon{
+    font-size: 400px;
+}
+
+.text-shadow-email{
+    text-shadow: 8px 8px 16px rgb(0, 247, 255); 
+}
+
+.linkedin-icon{
+    font-size: 400px;
+}
+
+.text-shadow-linkedin{
+    text-shadow: 8px 8px 16px rgb(0, 247, 255); 
+}
+
+.instagram-icon:hover{
+    text-shadow: 8px 8px 16px rgb(255, 255, 255);
+    color: white; 
+}
+
+.discord-icon:hover{
+    text-shadow: 8px 8px 16px rgb(255, 255, 255);
+    color: white; 
+}
+
+.email-icon:hover{
+    text-shadow: 8px 8px 16px rgb(255, 255, 255);
+    color: white; 
+}
+
+.linkedin-icon:hover{
+    text-shadow: 8px 8px 16px rgb(255, 255, 255);
+    color: white; 
+}
+
+.link-style{
+    text-decoration: none;
+    color: aqua;
+    text-shadow: 2px 2px 4px rgb(0, 247, 255);
+}
+
+.link-style:hover{
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    color: white;
+}
+
+.card-link{
+    text-decoration: none;
+}
