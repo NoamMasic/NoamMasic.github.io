@@ -1,0 +1,91 @@
+body{
+    background: linear-gradient(darkblue, aqua);
+}
+
+h1{
+    text-align: center;
+    color: aqua;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    width: fit-content;
+    height: fit-content;
+    margin-top: 2%;
+    margin: auto;
+}
+
+.doos{
+    border: 1px solid darkblue;
+    background-color: aqua;
+    cursor: pointer;
+    text-align: center;
+    font-size: 120px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.t1{
+    border-top-left-radius: 10%;
+}
+
+.t3{
+    border-top-right-radius: 10%;
+}
+
+.t7{
+    border-bottom-left-radius: 10%;
+}
+
+.t9{
+    border-bottom-right-radius: 10%;
+}
+
+.doos:hover{
+    background-color: rgb(0, 170, 170);
+}
+
+.beurt{
+    height: 80px;
+    width: 80px;
+    background-color: aqua;
+    margin-left: 47%;
+    text-align: center;
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.beurttext{
+    position: absolute;
+    left: 54%;
+    bottom: 2%;
+    font-size: 25px;
+    color: aqua;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.matchhistory{
+    position: absolute;
+    left: 80%;
+    bottom: 70%;
+    height: 100px;
+    width: 200px;
+    font-size: 35px;
+    text-align: center;
+}
+
+td{
+    border: 1px solid aqua;
+    text-align: left;
+    color: aqua;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+tr{
+    border: 1px solid aqua;
+    text-align: left;
+    color: aqua;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

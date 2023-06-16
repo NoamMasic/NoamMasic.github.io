@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/sd22-p04-project-dashboard-team-enderman/CSS/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="icon" type="image/x-icon" href="/sd22-p04-project-dashboard-team-endermanMedia/EndermanFavicon.ico">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="/index.html">
+                <img class="logo-img" src="/sd22-p04-project-dashboard-team-endermanMedia/EndermanLogo.png" alt="" srcset="">
+            </a>
+            <h1>en<p>D</p>er<p>M</p>a<p>N</p>
+            </h1>
+            <a class="chat" href="chat.html">Chat</a>
+            <a class="support" href="support.html">Support</a>
+            <div class="inloggen">Inloggen</div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="support-container">
+            <div class="faq-info">
+                <h1 class="faqHeading">FAQ</h1>
+                <br>
+                <hr class="hrLine">
+                <div class="faqContainer">
+                    <div class="faqOne">
+                        <br>
+                        <h2 class="faqPage">What is an FAQ Page?</h2>
+                        <div class="faqBody">
+                            <p class="faqText">
+                                An FAQ page, short for Frequently Asked Questions page,
+                                is a webpage on a website that provides answers to commonly asked questions
+                                about a particular topic, product, or service. It helps users find quick solutions to their inquiries,
+                                saving time and improving user experience.
+                            </p>
+                        </div>
+                    </div>
+                    <br>
+                    <hr class="hrLine">
+                    <br>
+                    <div class="faqTwo">
+                        <h2 class="faqPage">Why do you need an FAQ page?</h2>
+                        <div class="faqBody">
+                            <p class="faqText">
+                                An FAQ page is beneficial because it helps address common concerns and questions
+                                that users may have, reducing the need for individual customer support inquiries.
+                                It improves user satisfaction, saves time for both users and businesses, and can serve as a valuable resource for self-service support.
+                            </p>
+                        </div>
+                    </div>
+                    <br>
+                    <hr class="hrLine">
+                    <br>
+                    <div class="faqThree">
+                        <h2 class="faqPage">Does it improves the user experience of a website?</h2>
+                        <div class="faqBody">
+                            <p class="faqText">
+                                Yes, an FAQ page can significantly improve the user experience of a website.
+                                By providing readily accessible answers to common questions,
+                                it saves users the time and effort of contacting customer support or searching through multiple pages for information,
+                                resulting in a more efficient and satisfying browsing experience.
+                            </p>
+                        </div>
+                    </div>
+                    <br>
+                    <hr class="hrLine">
+                </div>
+            </div>
+            <button class="chatbot-button">
+                Chatbot
+            </button>
+            <div class="SupportProblem">
+                <h3>Probleem</h3>
+                <div class="dropdown">
+                    <button class="dropbtn">Probleem</button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <p class="selector Homepage">Home page</p>
+                      <p class="selector Supportpage">Support page</p>
+                      <p class="selector Loginscreen">Login screen</p>
+                      <p class="selector Chatbot">Chatbot</p>
+                      <p class="selector Dashboard">Dashboard</p>
+                    </div>
+                  </div>
+                <h3>Email</h3>
+                <input class="input input-Email" type="text">
+                <h3>Message</h3>
+                <textarea name="message" class="input-Message" cols="30" rows="5" ></textarea>
+            </div>
+        </div>
+    </main>
+
+    <div class="chatbot-text" style="display: none;">
+        <div class="display-text"></div>
+        <textarea class="chatbot-text-text"></textarea>
+    </div>
+
+    <div class="login-page" style="display: none;">
+        <h2>Log In</h2>
+        <br>
+        <br>
+        <h3>Username: </h3>
+        <input class="input input-text" type="text">
+        <br>
+        <h3>Email:</h3>
+        <input class="input input-email" type="email">
+        <br>
+        <h3>Password:</h3>
+        <input class="input input-password" type="password">
+        <div class="login-buttons">
+            <div class="login-button login-close">Close</div>
+            <div class="login-button login-login">Login</div>
+        </div>
+    </div>
+    <script src="/sd22-p04-project-dashboard-team-enderman/JS/support.js"></script>
+    <script src="/sd22-p04-project-dashboard-team-endermanJS/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/sd22-p04-project-dashboard-team-enderman/CSS/style.css">
+    <link rel="stylesheet" href="/sd22-p04-project-dashboard-team-enderman/CSS/card-1.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="icon" type="image/x-icon" href="/sd22-p04-project-dashboard-team-enderman/Media/EndermanFavicon.ico">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/index.html">
+                <img class="logo-img" src="/sd22-p04-project-dashboard-team-enderman/Media/EndermanLogo.png" alt="" srcset="">
+            </a>
+            <h1>en<p>D</p>er<p>M</p>a<p>N</p>
+            </h1>
+            <a class="chat" href="/sd22-p04-project-dashboard-team-enderman/chat.html">Chat</a>
+            <a class="support" href="/sd22-p04-project-dashboard-team-enderman/support.html">Support</a>
+            <div class="inloggen">Inloggen</div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="card">
+            <div class="dropdown">
+                <button class="dropbtn">Pokemon</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <p class="selector pokemon">Pokemon</p>
+                  <p class="selector ability">Ability</p>
+                  <p class="selector item">Item</p>
+                </div>
+              </div>
+            <input class="search" type="text">
+            <button class="searchButton">Search Pokemon</button>
+            <h1 class="viewPokemon"></h1>
+            <div class="ID"></div>
+            <img class="pokemon-img" src="" alt="">
+        </div>
+        <div class="graph">
+            <canvas id="myChart"></canvas>
+        </div>
+    </main>
+
+    <div class="login-page" style="display: none;">
+        <h2>Log In</h2>
+        <br>
+        <br>
+        <h3>Username: </h3>
+        <input class="input input-text" type="text">
+        <br>
+        <h3>Email:</h3>
+        <input class="input input-email" type="email">
+        <br>
+        <h3>Password:</h3>
+        <input class="input input-password" type="password">
+        <div class="login-buttons">
+            <div class="login-button login-close">Close</div>
+            <div class="login-button login-login">Login</div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="/sd22-p04-project-dashboard-team-enderman/JS/card-1.js"></script>
+</body>
+</html>

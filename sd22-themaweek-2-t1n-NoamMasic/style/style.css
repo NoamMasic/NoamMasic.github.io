@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.loopmanText{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.distance{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.game{
+    height: 600px;
+    width: 1000px;
+    margin: auto;
+    border: 3px solid black;
+    background-color: white;
+}
+
+.loopman{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 500px;
+    background-image: url(/img/walking.png);
+    background-size: 100px 100px;
+}
+
+.doos{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    left: 940px;
+    top: 440px;
+    background-image: url(/img/crate.png);
+    background-size: 60px 60px;
+    animation: block 1s infinite linear;
+}
+
+.woodenBox{
+    height: 60px;
+    width: 60px;
+    position: relative;
+    left: 940px;
+    top: 350px;
+    background-image: url(/img/wooden-box.png);
+    background-size: 60px 60px;
+    animation: woodenCrate 1s infinite linear;
+}
+
+.hidden {
+    display: none;
+}
+
+@keyframes block {
+    0%{
+        left: 940px;
+    }
+    100%{
+        left: 0px;
+    }
+}
+
+@keyframes woodenCrate {
+    0%{
+        left: 940px;
+    }
+    100%{
+        left: 0px;
+    }
+}
+
+.jump{
+    animation: jump 0.5s ease-in-out;
+}
+
+@keyframes jump{
+   0%{
+    transform: translateY(0px);
+   } 
+   50%{
+    transform: translateY(-240px);
+   }
+   100%{
+    transform: translateY(0px);
+   }
+}
+

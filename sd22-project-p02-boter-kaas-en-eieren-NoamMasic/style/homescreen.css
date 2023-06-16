@@ -1,0 +1,39 @@
+body{
+   height: 100vh;
+   background: linear-gradient(darkblue, aqua);
+}
+
+.pvp{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    background: linear-gradient(darkblue, aqua);
+    height: 50px;
+    width: 100px;
+}
+
+.pve{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    background: linear-gradient(darkblue, aqua);
+    height: 50px;
+    width: 100px;
+}
+
+.pvp:hover{
+    background: linear-gradient(rgb(0, 0, 69), rgb(0, 102, 102));
+    cursor: pointer;
+}
+
+.pve:hover{
+    background: linear-gradient(rgb(0, 0, 69), rgb(0, 102, 102));
+    cursor: pointer;
+}
+
+.boventext{
+    position: absolute;
+    left: 46%;
+    top: 30%;
+    color: aqua;
+}
