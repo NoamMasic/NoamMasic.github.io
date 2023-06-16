@@ -94,3 +94,24 @@ img{
 .card-link{
     text-decoration: none;
 }
+
+.boterkaas{
+    width: 440px;
+    height: 250px;
+}
+
+.gametime{
+    width: 440px;
+    height: 250px;
+}
+
+.loopman{
+    width: 440px;
+    height: 250px;
+}
+
+
+.dashboard{
+    height: 250px;
+    width: 440px;
+}
