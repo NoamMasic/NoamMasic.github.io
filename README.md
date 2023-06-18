@@ -10,3 +10,5 @@ Een portofolio maken dat mijn kwaliteiten laat zien.
 bootstrap
 javascript
 css 
+
+Ik kan hoger lager en thema week 1 niet meer vinden omdat we toen nog geen github gebruikte.
